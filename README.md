@@ -23,16 +23,10 @@ Welcome to the Boggle project! This repository contains a Python implementation 
 ## Installation
 To get started with the Boggle game, follow these steps:
 
-1. **Clone the repository**:
+- **Clone the repository**:
     ```sh
     git clone https://github.com/shalevbarda/Boggle.git
     cd Boggle
-    ```
-
-2. **Install dependencies** (if any):
-    ```sh
-    # Example using pip, update with actual dependencies if needed
-    pip install -r requirements.txt
     ```
 
 ## Usage
