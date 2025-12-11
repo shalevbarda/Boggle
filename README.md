@@ -1,36 +1,47 @@
-# Boggle
+# 🎲 Boggle Game - Desktop Application
 
-![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
-![Version](https://img.shields.io/badge/version-1.0.0-blue)
+![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=flat&logo=python&logoColor=white)
+![GUI](https://img.shields.io/badge/GUI-Tkinter-green?style=flat)
+![Architecture](https://img.shields.io/badge/Architecture-MVC-orange?style=flat)
 
-## Table of Contents
-- [Introduction](#introduction)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
+> A robust implementation of the classic word search game, featuring an event-driven GUI and optimized validation algorithms.
 
-## Introduction
-Welcome to the Boggle project! This repository contains a Python implementation of the classic Boggle game, complete with a graphical user interface and game logic. The game is designed to provide an engaging experience for players who enjoy word puzzles.
+---
 
-![Boggle Game](https://blog.allaboutlearningpress.com/wp-content/uploads/2019/01/Boggle-Game-1-550x413.png)
 
-## Features
-- Interactive graphical user interface
-- Randomized Boggle board generation
-- Real-time word validation
-- Score tracking
+## 📷 Gameplay Demo
+![Game Screenshot](https://github.com/user-attachments/assets/6e3a751e-75b4-41d2-9714-7dacc35bba96)
 
-## Installation
-To get started with the Boggle game, follow these steps:
+---
 
-- **Clone the repository**:
-    ```sh
-    git clone https://github.com/shalevbarda/Boggle.git
+## 💡 Technical Highlights
+This project demonstrates **Object-Oriented Programming (OOP)** principles and separation of concerns (Model-View-Controller).
+
+* **Algorithmic Efficiency:** Implements **Recursive Backtracking (DFS)** to validate word paths on the grid efficiently in real-time.
+* **Architecture (MVC):**
+    * **Model:** Manages game logic, board generation, and dictionary validation.
+    * **View:** Handles UI components and user interactions (buttons, timer, score).
+    * **Controller:** Bridges the gap, handling events and updating the state.
+* **Event-Driven UI:** Responsive graphical interface built with Python's standard libraries.
+
+## 🚀 Features
+* 🧩 **Randomized Board Generation:** Ensures a valid distribution of letters based on standard Boggle dice.
+* ⚡ **Real-time Validation:** Instant feedback on word validity and path continuity.
+* ⏱️ **Countdown Timer:** Manages game sessions with automatic termination.
+* 🏆 **Dynamic Scoring:** Calculates scores based on word length complexities.
+
+## 🛠️ Installation & Usage
+
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/shalevbarda/Boggle.git](https://github.com/shalevbarda/Boggle.git)
     cd Boggle
     ```
 
-## Usage
-To start the Boggle game, run the following command:
+2.  **Run the game:**
+    ```bash
+    python boggle.py
+    ```
 
-```sh
-python boggle.py
+---
+*Created by [Shalev Barda](https://github.com/shalevbarda) - Feel free to contact me for any questions!*
